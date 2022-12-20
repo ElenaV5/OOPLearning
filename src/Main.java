@@ -15,5 +15,9 @@ public class Main {
 
         //System.out.println(rect.width * rect.height); //150.0
         System.out.println(rect == rect1); //false - треугольники не равны
+        System.out.println(rect1);
+        rect1 = rect;
+        System.out.println(rect == rect1);
+        System.out.println(rect1); //Rect{width=15.0, height=10.0, rect=null}
     }
 }
