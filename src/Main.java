@@ -4,7 +4,8 @@ public class Main {
         Rect rect = new Rect();
         rect.height = 10;
         rect.width = 15;
-        System.out.println(rect);
+        rect.rect = new Rect();
+        System.out.println(rect.width * rect.height); //150.0
 
     }
 }
