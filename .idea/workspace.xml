@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7957a2fb-3777-456c-93ef-c1f976a5b1b6" name="Changes" comment="">
+    <list default="true" id="7957a2fb-3777-456c-93ef-c1f976a5b1b6" name="Changes" comment="Added width*height">
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +54,18 @@
       <option name="presentableId" value="Default" />
       <updated>1671556302430</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added width*height">
+      <created>1671561172340</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671561172340</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added width*height" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added width*height" />
   </component>
 </project>
