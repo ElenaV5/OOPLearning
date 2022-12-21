@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7957a2fb-3777-456c-93ef-c1f976a5b1b6" name="Changes" comment="Added rect1 = rect">
+    <list default="true" id="7957a2fb-3777-456c-93ef-c1f976a5b1b6" name="Changes" comment="Initialization of rect">
+      <change afterPath="$PROJECT_DIR$/src/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/synergy/constractorTest/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Rect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,13 +80,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671561736905</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Initialization of rect">
+      <created>1671562134309</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671562134309</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added width*height" />
     <MESSAGE value="Added rect1 and rect2" />
     <MESSAGE value="Added rect1 = rect" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added rect1 = rect" />
+    <MESSAGE value="Initialization of rect" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initialization of rect" />
   </component>
 </project>

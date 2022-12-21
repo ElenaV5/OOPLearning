@@ -4,6 +4,10 @@ class Rect {
     //Rect rect;
     String nameOfRect;
 
+    double getArea(){
+        return width*height; //расчет площади прямоугольника
+    }
+
    /* @Override
     public String toString() {
         return "Rect{" +
@@ -20,5 +24,11 @@ class Rect {
                 ", height=" + height +
                 ", nameOfRect='" + nameOfRect + '\'' +
                 '}';
+    }
+
+    void maignify(double koeff){
+        width *= koeff;
+        height *= koeff;
+
     }
 }
