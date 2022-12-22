@@ -6,9 +6,11 @@ public class Main {
         Fraction fr = new Fraction (1, 2);
         fr.add1ToNumerator().add1ToNumerator().add1ToNumerator();
 
-        Person oleg= new Person("Kolin", "Oleg", "m");
-        System.out.println(oleg);
+        Person oleg = new Person("Kolin", "Oleg", 'm');
+        System.out.println(oleg); //Person{firstName='Oleg', secondName='Kolin', gender=m}
 
+        Person elena = new Person("Nefedeva", "Elena", 'f');
+        System.out.println(elena);
     }
 
 
@@ -50,11 +52,11 @@ public class Main {
         }
 
         public Person(){
-            this("", "", "-");
+            this("", "", '-');
         }
 
         public Person(String secondName){
-            this(secondName, "", "-");
+            this(secondName, "", '-');
         }
         public Person(String secondName, String firstName, char gender){
             this(secondName, firstName);
