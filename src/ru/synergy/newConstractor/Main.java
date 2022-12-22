@@ -9,8 +9,17 @@ public class Main {
         Person oleg = new Person("Kolin", "Oleg", 'm');
         System.out.println(oleg); //Person{firstName='Oleg', secondName='Kolin', gender=m}
 
+        Person sasha = new Person("Hafizov"); //можно ввести и так
+        System.out.println(sasha);
+
         Person elena = new Person("Nefedeva", "Elena", 'f');
         System.out.println(elena);
+
+        Employee olga = new Employee();
+        olga.setFirstName("Olga");
+        olga.setSecondName("Svetlova");
+        olga.setGender('f');
+        System.out.println(olga);
     }
 
 
@@ -38,9 +47,33 @@ public class Main {
     }
 
     class Person {
-        private String firstName;
-        private String secondName;
-        private char gender; //m - male, f - female
+        protected String firstName; //меняем private на protected, чтобы было видно в классе Employee
+        protected String secondName;
+        protected char gender; //m - male, f - female
+
+        public String getFirstName() {
+            return firstName;
+        }
+
+        public void setFirstName(String firstName) {
+            this.firstName = firstName;
+        }
+
+        public String getSecondName() {
+            return secondName;
+        }
+
+        public void setSecondName(String secondName) {
+            this.secondName = secondName;
+        }
+
+        public char getGender() {
+            return gender;
+        }
+
+        public void setGender(char gender) {
+            this.gender = gender;
+        }
 
         @Override
         public String toString() {
@@ -68,5 +101,16 @@ public class Main {
 
         }
 
+    }
+
+    class Employee extends Person {
+        @Override
+        public String toString() {
+            return "Employee{" +
+                    "firstName='" + firstName + '\'' +
+                    ", secondName='" + secondName + '\'' +
+                    ", gender=" + gender +
+                    '}';
+        }
     }
 
