@@ -1,3 +1,5 @@
+package ru.synergy.oopLearning;
+
 public class Test {
 
     //ПСЕВДОКОД

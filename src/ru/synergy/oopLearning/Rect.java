@@ -1,7 +1,9 @@
+package ru.synergy.oopLearning;
+
 class Rect {
     double width;
     double height;
-    //Rect rect;
+    //ru.synergy.oopLearning.Rect rect;
     String nameOfRect;
 
     double getArea(){
@@ -10,7 +12,7 @@ class Rect {
 
    /* @Override
     public String toString() {
-        return "Rect{" +
+        return "ru.synergy.oopLearning.Rect{" +
                 "width=" + width +
                 ", height=" + height +
                 ", rect=" + rect +
@@ -19,7 +21,7 @@ class Rect {
 
     @Override
     public String toString() {
-        return "Rect{" +
+        return "ru.synergy.oopLearning.Rect{" +
                 "width=" + width +
                 ", height=" + height +
                 ", nameOfRect='" + nameOfRect + '\'' +

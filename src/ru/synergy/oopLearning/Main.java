@@ -1,3 +1,5 @@
+package ru.synergy.oopLearning;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -21,7 +23,7 @@ public class Main {
         System.out.println(rect1);
         rect1 = rect;
         System.out.println(rect == rect1);
-        System.out.println(rect1); //Rect{width=15.0, height=10.0, rect=null}
+        System.out.println(rect1); //ru.synergy.oopLearning.Rect{width=15.0, height=10.0, rect=null}
         */
 /*        System.out.println(rect.getArea()); //150.0 - 18.32
         System.out.println(rect1.getArea()); //125.0 25*5
@@ -31,8 +33,8 @@ public class Main {
         rect2.maignify(1.5);
         System.out.println(rect2.getArea()); //30*6 = 180.0
 */
-/*        Point point1 = new Point();
-        Point point2 = new Point();
+/*        ru.synergy.oopLearning.Point point1 = new ru.synergy.oopLearning.Point();
+        ru.synergy.oopLearning.Point point2 = new ru.synergy.oopLearning.Point();
 
         point1.input();
         System.out.println(point1);

@@ -1,5 +1,7 @@
 package ru.synergy.newConstractor;
 
+import java.sql.SQLOutput;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -15,11 +17,28 @@ public class Main {
         Person elena = new Person("Nefedeva", "Elena", 'f');
         System.out.println(elena);
 
+        /*
+        //Принцип Наследования:
         Employee olga = new Employee();
         olga.setFirstName("Olga");
         olga.setSecondName("Svetlova");
         olga.setGender('f');
-        System.out.println(olga);
+        System.out.println(olga); //Person{firstName='Olga', secondName='Svetlova', gender=f}
+        //после добавления метода toString: Employee{firstName='Olga', secondName='Svetlova', gender=f}
+
+        Person olga2 = olga;
+        System.out.println(olga2); //Employee{firstName='Olga', secondName='Svetlova', gender=f}
+
+        //Employee oleg2 = oleg; - так сделать не получится*/
+
+        //Принцип Полиморфизма:
+        Employee olga = new Employee("Svetlova", "Olga", 'f', "buhgalter");
+        System.out.println(olga); //Employee{dolzhnost='buhgalter', firstName='Olga', secondName='Svetlova', gender=f}
+        olga.tellMeWhoRU();
+
+        Person olga2 = olga;
+        System.out.println(olga2); //Employee{dolzhnost='buhgalter', firstName='Olga', secondName='Svetlova', gender=f}
+        ((Employee)olga2).tellMeWhoRU(); //Присваиваем Person'у Employee
     }
 
 
@@ -104,13 +123,44 @@ public class Main {
     }
 
     class Employee extends Person {
+        protected String dolzhnost;
+
+        /*public Employee(String secondName, String dolzhnost) {
+            super(secondName);
+            this.dolzhnost = dolzhnost;
+        }*/
+
+        public Employee(String secondName, String firstName, char gender, String dolzhnost) {
+            super(secondName, firstName, gender);
+            this.dolzhnost = dolzhnost;
+        }
+
+        /*public Employee(String secondName, String firstName, String dolzhnost) {
+            super(secondName, firstName);
+            this.dolzhnost = dolzhnost;
+        }*/
+
         @Override
+        public String toString() {
+            return "Employee{" +
+                    "Должность='" + dolzhnost + '\'' +
+                    ", имя='" + firstName + '\'' +
+                    ", фамилия='" + secondName + '\'' +
+                    ", пол=" + gender +
+                    '}';
+        }
+
+        /*@Override
         public String toString() {
             return "Employee{" +
                     "firstName='" + firstName + '\'' +
                     ", secondName='" + secondName + '\'' +
                     ", gender=" + gender +
                     '}';
+        }*/
+
+        public void tellMeWhoRU(){
+            System.out.println("Hello, I'm an eployee, and my class is " + this.getClass());
         }
     }
 

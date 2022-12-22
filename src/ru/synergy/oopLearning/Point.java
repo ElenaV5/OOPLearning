@@ -1,3 +1,5 @@
+package ru.synergy.oopLearning;
+
 import java.util.Scanner;
 
 public class Point {
@@ -39,7 +41,7 @@ public class Point {
 
     @Override
     public String toString() {
-        return "Point{" +
+        return "ru.synergy.oopLearning.Point{" +
                 "x=" + x +
                 ", y=" + y +
                 '}';
