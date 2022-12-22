@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7957a2fb-3777-456c-93ef-c1f976a5b1b6" name="Changes" comment="Finished with constructor explanation and extends">
-      <change afterPath="$PROJECT_DIR$/src/ru/synergy/interfaceTest/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/synergy/interfaceTest/Printable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7957a2fb-3777-456c-93ef-c1f976a5b1b6" name="Changes" comment="Finished with interface" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -120,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671690681092</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Finished with interface">
+      <created>1671696393392</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1671696393392</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -133,6 +136,7 @@
     <MESSAGE value="Added class Employee" />
     <MESSAGE value="Added Dolzhnost" />
     <MESSAGE value="Finished with constructor explanation and extends" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished with constructor explanation and extends" />
+    <MESSAGE value="Finished with interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished with interface" />
   </component>
 </project>
