@@ -97,9 +97,9 @@ public class Main {
         @Override
         public String toString() {
             return "Person{" +
-                    "firstName='" + firstName + '\'' +
-                    ", secondName='" + secondName + '\'' +
-                    ", gender=" + gender +
+                    "ФИО='" + firstName +
+                    " " + secondName + '\'' +
+                    ", пол=" + gender +
                     '}';
         }
 
@@ -144,8 +144,8 @@ public class Main {
         public String toString() {
             return "Employee{" +
                     "Должность='" + dolzhnost + '\'' +
-                    ", имя='" + firstName + '\'' +
-                    ", фамилия='" + secondName + '\'' +
+                    ", ФИО='" + firstName +
+                    " " + secondName + '\'' +
                     ", пол=" + gender +
                     '}';
         }
@@ -160,7 +160,7 @@ public class Main {
         }*/
 
         public void tellMeWhoRU(){
-            System.out.println("Hello, I'm an eployee, and my class is " + this.getClass());
+            System.out.println("Hello, I'm an employee, and my class is " + this.getClass());
         }
     }
 
