@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7957a2fb-3777-456c-93ef-c1f976a5b1b6" name="Changes" comment="Added Dolzhnost">
+    <list default="true" id="7957a2fb-3777-456c-93ef-c1f976a5b1b6" name="Changes" comment="Finished with constructor explanation and extends">
+      <change afterPath="$PROJECT_DIR$/src/ru/synergy/interfaceTest/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/synergy/interfaceTest/Printable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/synergy/newConstractor/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/synergy/newConstractor/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -111,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671689594738</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Finished with constructor explanation and extends">
+      <created>1671690681092</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1671690681092</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -123,6 +132,7 @@
     <MESSAGE value="Added new person" />
     <MESSAGE value="Added class Employee" />
     <MESSAGE value="Added Dolzhnost" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Dolzhnost" />
+    <MESSAGE value="Finished with constructor explanation and extends" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished with constructor explanation and extends" />
   </component>
 </project>
